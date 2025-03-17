@@ -22,7 +22,7 @@ app.post("/send-email", async (req, res) => {
 
   const mailOptions = {
     from: `"Your Website Name" <${process.env.EMAIL_USER}>`, // Custom sender name
-    to: process.env.EMAIL_USER, // Send to yourself
+    to: "dipshirshadatta@gmail.com", // Send to yourself
     replyTo: email, // Allow replies to the visitor's email
     subject: `New Contact Form Submission: ${subject}`,
     html: `
